@@ -1,16 +1,16 @@
 <rss version="2.0">
     <channel>
 	    <title>ŠizFriz obaveštenja</title>
-	    <link></link>
+	    <link>https://sofija666.github.io/MojSajt/index.html</link>
 	    <description>ŠizFriz je najbolji salon u Beogradu!</description>
 	<item>
 	    <title>Pogledajte naš cenovnik</title>
-		<link></link>
+		<link>https://sofija666.github.io/MojSajt/cenovnik.html</link>
 		<description>Budite informisani kolike su cene naših usluga.</description>
 	</item>
 	<item>
 	    <title>Pogledajte našu galeriju</title>
-		<link></link>
+		<link>https://sofija666.github.io/MojSajt/galerija.html</link>
 		<description>Najnovije fotografije.</description>
 	</item>
 	</channel>
