@@ -1,0 +1,16 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+korisnici{
+	background-color:#b6ccf0;
+}
+korisnik, brojTelefona, lozinka{
+	display:block;
+}
+brojTelefona, lozinka, danRodjenja{
+	margin-left: 10px;
+}
+lozinka{
+	font-weight:bold;
+}

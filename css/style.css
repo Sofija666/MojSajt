@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+ul{
+	list-style-type: none;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.centriranje{
+	margin: 0px auto;
+}
+.textal{
+	text-align: center;
+}
+.box{
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
+.fade{
+	animation: fadeIn 2s;
+}
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+#header{
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+    top: 0;	
+	z-index: 5;
+}
+nav{
+	margin: 25px 10% 20px 0px;
+}
+#logo{
+	width: 20%;
+	padding-top: 3px;
+	font-family: 'Caveat', cursive;
+	font-size: 22px; 
+	padding-left: 10%;
+}
+nav ul li{
+	display: inline;
+	padding: 12px;
+}
+.cleaner{
+	clear: both;
+}
+#pozadina{
+	background-image: url("../img/kovrdza.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-top:200px;
+	padding-bottom:200px;
+}
+#sivi-blok{
+	margin:0px auto;
+	background-color: rgba(0, 0, 0, 0.15);
+	width:40%;
+	border-style: inset;
+	padding: 150px 0;
+}
+#beli-tekst{
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	color: #fff;
+}
+#flex{
+	justify-content: center;
+	flex-direction: row;
+}
+.flex{
+	display: flex;
+}
+.kocke{
+	width: 20%;
+	padding: 60px 10px;
+	border-style: outset;
+	margin: 25px 25px 70px;
+}
+#slika{
+	background-image: url("../img/belokosa.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.font20{
+	font-size: 20px;
+}
+.art h4, .art i{
+	padding: 60px;
+}
+.art i{
+	font-size: 50px;
+}
+#broj{
+	font-size: 22px;
+}
+a:hover {
+  color: #bf2e2e;
+}
+#p{
+	font-size: 35px;
+	font-weight: bold;
+}
+#p2{
+	font-size: 30px;
+}
+#h3{
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+#art2{
+	margin: 50px 0px;
+}
+.slova{
+	font-family: 'Quicksand', sans-serif;
+}
+.floatL{
+	float: left; 
+}
+.floatR{
+	float: right;
+}
+footer{
+	width: 100%;
+	padding-top:10px;
+}
+footer section{
+	width: 30%;
+}
+footer article{
+	margin:20px;
+}
+footer section article a{
+	padding: 10px;
+	line-height:80px;
+}
+footer ul li{
+	display: inline;
+}
+footer section article i{
+	font-size: 25px;
+}
+footer h5{
+	padding-bottom: 10px;
+}
+#p3{
+	padding: 10px 0 0 35px;
+}
+#art2{
+	margin-top: 30px;
+}
+#art2 i{
+	padding: 7px 15px 0 0;
+}
+#art2 p{
+	padding-top: 5px;
+}
+#slika2{
+	background-image: url("../img/crvenokosa.jpg");
+	background-size:cover;
+	background-position: right;
+	width: 70%;
+	height: 650px;
+    margin-top: 100px;
+}
+#slika3{
+	background-image: url("../img/lik.jpg");
+	background-size:cover;
+	background-position: center;
+	width: 70%;
+	height: 500px;
+	margin-top: 35px;
+	margin-bottom: 80px;
+}
+#cene section {
+	padding: 100px 30px 50px 100px;
+	width: 40%;
+	float: left;
+}
+#cene section li{
+	padding: 3px;
+	font-size:30px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted black;
+}
+#cene section span{
+	float: right;
+}
+#cene h2{
+	font-size: 40px;
+	padding: 20px 0 20px;
+}
+#sec{
+	margin-left: 100px;
+}
+#galerija{
+	margin-top: 100px;
+}
+.redslika article img{
+	height: 350px;
+	transition: 1s;
+}
+.redslika article img:hover{
+	transform: scale(1.1);
+}
+.margin-l-r{
+	margin: 0 30px;
+}
+.redslika{
+	justify-content:center;
+	background-color: rgba(0, 0, 0, 0.03);
+	width: 65%; 
+    padding: 45px 70px;
+	transition: 1s;
+}
+.footermar{
+	margin-top: 80px;
+}
+#galerija h2{
+	margin: 50px 0;
+	font-size: 45px;
+}
+#pozadina2{
+	background-image: url("../img/crnokosa2.jpg");
+	background-size:cover;
+	background-position: center;
+	padding-top: 500px;
+}
+#forma{
+	width: 15%;
+	position: relative;
+	top: -200px;
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: 0.8s;
+}
+#forma:hover{
+	transform: scale(1.1);
+}
+table{
+	padding: 50px;
+	font-size: 20px;
+}
+#forma input[type="text"], #forma input[type="email"]{
+	background: none;
+	border: none;
+	border-bottom: 1px solid #bf2e2e;
+	outline: none;
+}
+.required{
+	color: #bf2e2e;
+}
+#button1{
+	padding: 7px;
+	width: 170px;
+	background-color: rgba(255, 255, 255, 0.1)
+}
+#button1:hover{
+	color: #bf2e2e;
+}
+#poruka{
+	width: 170px;
+	padding: 10px 0;
+	background-color: rgba(255, 255, 255, 0.1)
+}
+#forma h2{
+	padding-top: 40px;
+}
+#pozadina3{
+	background-image: url("../img/makaze.png");
+	background-size:cover;
+	background-position: center;
+	padding: 200px 0px 150px;
+}
+#autor{	
+    justify-content:center;	
+}
+#boja{
+	padding: 40px 40px 20px;
+	background-color: #fff;
+	width: 35%;
+    justify-content:center;
+	transition: 1s;
+}
+#autor figure{
+	text-align:center;
+}
+#autor-text{
+	width:400px;
+	margin-left:5%;
+}
+#autor img{
+	width:250px;	
+}
+.razmak{
+	margin: 10px 0px 15px;
+}
