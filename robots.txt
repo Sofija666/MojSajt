@@ -1,2 +1,3 @@
+Sitemap: https://sofija666.github.io/MojSajt/sitemap.xml
 User-agent:*
 Disallow:
