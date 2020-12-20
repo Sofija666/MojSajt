@@ -138,17 +138,17 @@ nav ul li{
 footer{	
 	padding-top:10px;
 }
-footer article{
+footer section{
 	margin:20px;
 }
-footer section article a{
+footer section a{
 	padding: 10px;
 	line-height:80px;
 }
 footer ul li{
 	display: inline;
 }
-footer section article i{
+footer section i{
 	font-size: 25px;
 }
 #p3{
@@ -277,7 +277,8 @@ footer section article i{
 	width:250px;	
 }
 .razmak{
-	margin-top: 40px;
+	margin-top: 20px;
+	margin-bottom: 1%;
 }
 .mapouter{
 	margin-top: 45px;
