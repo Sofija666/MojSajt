@@ -126,14 +126,14 @@ nav ul li{
 	font-weight: bold;
 }
 #p2{
-	font-size: 30px;
+	font-size: 23px;
 }
 #h3{
-	font-size: 40px;
+	font-size: 30px;
 	margin-bottom: 25px;
 }
 #art2{
-	margin: 50px 0px;
+	margin: 50px 100px;
 }
 footer{	
 	padding-top:10px;
@@ -184,16 +184,16 @@ footer section i{
 }
 #cene section li{
 	padding: 3px;
-	font-size:30px;
-    margin-bottom: 10px;
+	font-size:27px;
+    margin-bottom: 13px;
     border-bottom: 1px dotted #bf2e2e;
 }
 #cene section span{
 	float: right;
 }
 #cene h2{
-	font-size: 40px;
-	padding: 20px 0 20px;
+	font-size: 33px;
+	padding: 27px 0 27px;
 }
 #galerija{
 	margin-top: 100px;
@@ -211,8 +211,11 @@ footer section i{
 	transition: 1s;
 }
 #galerija h2{
-	margin: 50px 0;
-	font-size: 45px;
+	margin: 55px 0;
+	font-size: 35px;
+}
+#f{
+	margin-top: 45px;
 }
 #pozadina2{
 	background-image: url("../img/crnokosa2.jpg");
