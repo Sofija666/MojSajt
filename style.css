@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover, #butt:hover {
+  color: #bf2e2e;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.redslika article img:hover, .mapouter:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+.centriranje{
+	margin: 0px auto;
+}
+.textal{
+	text-align: center;
+}
+.box{
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
+.fade{
+	animation: fadeIn 2s;
+}
+.cleaner{
+	clear: both;
+}
+.flex{
+	display: flex;
+}
+.just{
+	justify-content: center;
+}
+.font20{
+	font-size: 20px;
+}
+.slova{
+	font-family: 'Quicksand', sans-serif;
+}
+.floatL{
+	float: left; 
+}
+.floatR{
+	float: right;
+}
+.background{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+#header{
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+    top: 0;
+	z-index: 5;
+}
+nav{
+	margin: 25px 10% 20px 0px;
+}
+#logo{
+	width: 20%;
+	padding-top: 3px;
+	font-family: 'Caveat', cursive;
+	font-size: 22px; 
+	padding-left: 10%;
+}
+nav ul li{
+	display: inline;
+	padding: 12px;
+}
+#pozadina{
+	background-image: url("../img/kovrdza.jpg");
+	padding:200px 0;
+}
+#sivi-blok{
+	margin:0px auto;
+	background-color: rgba(0, 0, 0, 0.15);
+	width:40%;
+	border-style: inset;
+	padding: 150px 0;
+}
+#beli-tekst{
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	color: #fff;
+}
+.kocke{
+	width: 20%;
+	padding: 60px 10px;
+	border-style: outset;
+	margin: 25px 25px 70px;
+}
+#slika{
+	background-image: url("../img/belokosa.jpg");
+	background-position: center;
+}
+.art h4, .art i{
+	padding: 60px;
+}
+.art i{
+	font-size: 50px;
+}
+#broj{
+	font-size: 22px;
+}
+#p{
+	font-size: 35px;
+	font-weight: bold;
+}
+#p2{
+	font-size: 23px;
+}
+#h3{
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+#art2{
+	margin: 50px 100px;
+}
+footer{	
+	padding-top:10px;
+}
+footer section{
+	margin:20px;
+}
+footer section a{
+	padding: 10px;
+	line-height:80px;
+}
+footer ul li{
+	display: inline;
+}
+footer section i{
+	font-size: 25px;
+}
+#p3{
+	padding: 10px 0 0 35px;
+}
+#art2{
+	margin-top: 30px;
+}
+#art2 i{
+	padding: 7px 15px 0 0;
+}
+#art2 p{
+	padding-top: 5px;
+}
+#slika2{
+	background-image: url("../img/crvenokosa.jpg");
+	height: 600px;
+	margin: 40px 0 50px;
+}
+.w600{
+	width: 600px;
+}
+#slika3{
+	background-image: url("../img/lik.jpg");
+	height: 500px;
+}
+#cene{ 
+	justify-content: space-evenly;
+}
+#cene section {
+	padding: 100px 30px 50px 100px;
+	width: 40%;
+}
+#cene section li{
+	padding: 3px;
+	font-size:27px;
+    margin-bottom: 13px;
+    border-bottom: 1px dotted #bf2e2e;
+}
+#cene section span{
+	float: right;
+}
+#cene h2{
+	font-size: 33px;
+	padding: 27px 0 27px;
+}
+#galerija{
+	margin-top: 100px;
+}
+.redslika article img{
+	height: 350px;
+}
+.margin-l-r{
+	margin: 0 30px;
+}
+.redslika{
+	background-color: rgba(0, 0, 0, 0.03);
+	width: 65%; 
+    padding: 45px 70px;
+	transition: 1s;
+}
+#galerija h2{
+	margin: 55px 0;
+	font-size: 35px;
+}
+#f{
+	margin-top: 45px;
+}
+#pozadina2{
+	background-image: url("../img/crnokosa2.jpg");
+	background-position: center;
+	padding-top: 400px;
+}
+.blokovi{
+	background-color: rgba(255,255,255, 0.6);
+	padding: 50px;
+	margin-left: 30px;
+	position: relative;
+	top: -170px;
+	border-radius: 6%;
+}
+.blokovi h2{
+	margin-bottom: 35px;
+}
+.blokovi p{
+	margin-bottom: 20px;
+}
+#butt{
+	padding: 7px;
+	width: 250px;
+	background-color: rgba(255, 255, 255, 0.4);
+	margin: 10px 0;
+}
+#mess{
+	width: 250px;
+	padding-bottom: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 5px 0 0;
+	outline: none;
+}
+.zvez{
+	color: #bf2e2e;
+}
+#forma input[type="text"], #forma input[type="email"]{
+	background: none;
+	border: none;
+	border-bottom: 1px solid #bf2e2e;
+	width: 250px;
+	margin: 5px 0 10px;
+	padding: 10px 0;
+	outline: none;
+}
+#pozadina3{
+	background-image: url("../img/makaze.png");
+	background-position: center;
+	padding: 274px 0px 190px;
+}
+#boja{
+	padding: 40px 40px 20px;
+	background-color: #fff;
+	width: 35%;   
+	transition: 1s;
+}
+#autor-text{
+	width:400px;
+	margin-left: 5%;
+}
+#autor img{
+	width:250px;	
+}
+.razmak{
+	margin-top: 20px;
+	margin-bottom: 1%;
+}
+.mapouter{
+	margin-top: 45px;
+}
